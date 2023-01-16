@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.querySelector("#root"));
 
 root.render(
   <>
-    <Leva />
+    <Leva collapsed={false} />
     <Canvas
       camera={{
         position: [0, 0, 10],

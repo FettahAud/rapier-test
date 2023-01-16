@@ -8,8 +8,8 @@ import { useControls } from "leva";
 
 export default function App() {
   const { debug, controls } = useControls({
-    debug: false,
-    controls: false,
+    debug: true,
+    controls: true,
   });
   return (
     <>
